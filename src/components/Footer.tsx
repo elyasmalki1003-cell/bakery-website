@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Twitter, Mail, MapPin, Phone } from 'lucide-react';
+import { Heart, Share2, MessageCircle, Mail, MapPin, Phone } from 'lucide-react';
 
 const Footer: React.FC = () => {
   return (
@@ -12,9 +12,9 @@ const Footer: React.FC = () => {
               Crafting delicious baked goods with passion since 2010.
             </p>
             <div className="flex space-x-4 mt-6">
-              <a href="#" aria-label="Facebook"><Facebook className="w-5 h-5" /></a>
-              <a href="#" aria-label="Instagram"><Instagram className="w-5 h-5" /></a>
-              <a href="#" aria-label="Twitter"><Twitter className="w-5 h-5" /></a>
+              <a href="#" aria-label="Like"><Heart className="w-5 h-5" /></a>
+              <a href="#" aria-label="Share"><Share2 className="w-5 h-5" /></a>
+              <a href="#" aria-label="Message"><MessageCircle className="w-5 h-5" /></a>
               <a href="#" aria-label="Email"><Mail className="w-5 h-5" /></a>
             </div>
           </div>

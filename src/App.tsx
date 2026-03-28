@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import { ShoppingCart, Menu, Star, Truck, Shield } from 'lucide-react';
-import { products } from './data/products';
-import { CartProvider, useCart } from './context/CartContext';
+import { Star, Truck, Shield } from 'lucide-react';
+import { CartProvider } from './context/CartContext';
 import Header from './components/Header';
 import ProductGrid from './components/ProductGrid';
 import CartSidebar from './components/CartSidebar';
